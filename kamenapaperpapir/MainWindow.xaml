@@ -1,0 +1,21 @@
+﻿<Window x:Class="kamenapaperpapir.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kamenapaperpapir"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Height="100" Width="100"/>
+        <Image x:Name="o1" HorizontalAlignment="Left" Height="311" Margin="49,47,0,0" VerticalAlignment="Top" Width="263" Stretch="Fill" />
+        <Image x:Name="o2" HorizontalAlignment="Left" Height="311" Margin="510,47,0,0" VerticalAlignment="Top" Width="268" Stretch="Fill" />
+        <Button x:Name="btn1" Content="start" HorizontalAlignment="Left" Margin="356,348,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="51" Width="88" Click="btn1_Click"/>
+
+    </Grid>
+</Window>

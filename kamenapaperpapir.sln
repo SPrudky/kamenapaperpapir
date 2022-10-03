@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kamenapaperpapir", "kamenapaperpapir\kamenapaperpapir.csproj", "{BEA096DA-804B-4980-BCB2-5D9EA0905CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA096DA-804B-4980-BCB2-5D9EA0905CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA096DA-804B-4980-BCB2-5D9EA0905CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA096DA-804B-4980-BCB2-5D9EA0905CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA096DA-804B-4980-BCB2-5D9EA0905CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03486E01-4BDA-485B-AB27-93FDD51EBD0A}
+	EndGlobalSection
+EndGlobal
